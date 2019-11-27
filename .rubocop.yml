@@ -1,0 +1,15 @@
+AllCops:
+  TargetRubyVersion: 2.6
+
+Naming/FileName:
+  Exclude:
+    - puma-stats.gemspec
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
