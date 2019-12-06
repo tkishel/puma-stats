@@ -37,7 +37,7 @@ plugin 'stats'
 ## Credits
 
 The gem is inspired by the following projects:
-* https://github.com/puma/puma-metrics
+* https://github.com/harmjanblok/puma-metrics
 
 ## License
 
