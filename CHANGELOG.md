@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+Rubocop improvements.
+
 ## 1.0.2
 
 Do not redefine Puma::MiniSSL::ContextBuilder if already defined.

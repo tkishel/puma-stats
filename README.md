@@ -27,11 +27,8 @@ Add following lines to your puma `config.rb` (see
 # config/puma.rb
 
 plugin 'stats'
-
-# Bind the stats server to "url". "tcp://" is the only accepted protocol.
-#
-# stats_url 'tcp://0.0.0.0:12345'
-# stats_token 'knockknock'
+stats_url 'tcp://0.0.0.0:12345'
+stats_token 'knockknock'
 ```
 
 ## Credits
