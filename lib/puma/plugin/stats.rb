@@ -3,7 +3,6 @@
 require 'puma/stats/dsl'
 
 Puma::Plugin.create do
-  # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
   def start(launcher)
     str = launcher.options[:stats_url] || 'tcp://0.0.0.0:51209'
 
@@ -41,5 +40,4 @@ Puma::Plugin.create do
 
     stats.run
   end
-  # rubocop:enable Metrics/MethodLength, Metrics/AbcSize
 end

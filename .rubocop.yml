@@ -5,6 +5,18 @@ Naming/FileName:
   Exclude:
     - puma-stats.gemspec
 
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 32
+
+Metrics/MethodLength:
+  Max: 32
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
 Metrics/LineLength:
   Max: 120
 
