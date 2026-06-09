@@ -1,4 +1,4 @@
-# puma-stats
+# puma-stats 
 
 A puma plugin to expose Puma's internal statistics.
 
